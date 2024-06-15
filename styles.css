@@ -202,13 +202,39 @@ input::placeholder {
 .icon {
     height: 30px;
     width: 30px;
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.face {
+    background-image: url('./images/icon1.png');
+}
+
+.insta {
+    background-image: url('./images/icon2.png');
+}
+
+.twit {
+    background-image: url('./images/icon3.png');
+}
+
+.linked {
+    background-image: url('./images/icon4.png');
+}
+
+.youtu {
+    background-image: url('./images/icon5.png');
 }
 
 .card-icons {
     width: 224px;
     height: 26px;
-    margin: 13px;
+    margin-top: 13px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 224px, 26px;
+    background-image: url('./images/cards.png');
 }
 
 .footer {
