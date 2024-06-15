@@ -22,15 +22,21 @@
     padding-top: 24px;
     padding-bottom: 24px;
     padding-right: 25px;
+    padding-left: 25px;
     justify-content: left;
 }
 
 .box {
     width: 259px;
-    padding-left: 25px;
-    padding-top: 24px;
-    padding-right: 30px;
-    padding-bottom: 24px;
+}
+
+.background-wrapper {
+    width: 204px;
+    height: 202px;
+    padding-top: 108;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .border {
@@ -39,21 +45,21 @@
 
 .care {
     background-color: #FBFBFB;
-    background-image: url('/images/plant1.png');
+    background-image: url('./images/plant1.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
 
 .renovation {
     background-color: #FBFBFB;
-    background-image: url('/images/plant2.png');
+    background-image: url('./images/plant2.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
 
 .watering {
     background-color: #FBFBFB;
-    background-image: url('/images/plant3.png');
+    background-image: url('./images/plant3.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
