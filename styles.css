@@ -4,6 +4,7 @@
 
 .body {
     margin: 0px;
+    font-size: 0px;
     font-family: Roboto;
 }
 
@@ -32,7 +33,30 @@
     padding-bottom: 24px;
 }
 
-.picture-wrapper {}
+.border {
+    border-left: 1px;
+}
+
+.care {
+    background-color: #FBFBFB;
+    background-image: url('/images/plant1.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.renovation {
+    background-color: #FBFBFB;
+    background-image: url('/images/plant2.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.watering {
+    background-color: #FBFBFB;
+    background-image: url('/images/plant3.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
 
 .text-wrapper {
     margin-top: 15px;
@@ -47,9 +71,38 @@
     margin-left: 62px;
 }
 
+input::placeholder {
+    color: #ACACAC;
+}
+
+.placehold {
+    height: 40px;
+    border: 0px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding-left: 11px;
+    width: 354px;
+}
+
+.join {
+    border: 0px;
+    height: 40px;
+    background-color: #46A358;
+    color: #ffffff;
+    padding-left: 26px;
+    padding-top: 12px;
+    padding-right: 25px;
+    padding-bottom: 12px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
 .input-join {
+    display: flex;
     margin-top: 25px;
     margin-bottom: 18px;
+    justify-content: center;
+    align-items: center;
 }
 
 .layout {
@@ -89,11 +142,26 @@
 
 
 .middle {
-    background-color: green;
+    background-image:linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+    height: 88px;
     padding-left: 23px;
     padding-right: 22px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.banner-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.greentext {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
 }
 
 .undermiddle {
@@ -120,6 +188,21 @@
 .icons {
     margin-top: 20px;
     margin-bottom: 33px;
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+}
+
+.icon {
+    height: 30px;
+    width: 30px;
+
+}
+
+.card-icons {
+    width: 224px;
+    height: 26px;
+    margin: 13px;
 }
 
 .footer {
